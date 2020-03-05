@@ -1,0 +1,283 @@
+@font-face{
+	font-family: 'Lato-Regular';
+	src: url('assets/part3/fonts/Lato-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Lato-Black';
+	src: url('assets/part3/fonts/Lato-Black.ttf');
+}
+
+@font-face{
+	font-family: 'Lato-Light';
+	src: url('assets/part3/fonts/Lato-Light.ttf');
+}
+
+
+html, body{
+	padding: 0;
+	margin: 0;
+	user-select: none;
+	cursor: default;
+}
+
+html{
+	min-height: 100%;
+	height: auto;
+	position: relative;
+}
+
+.section-form{
+	height: 582px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+/*	align-items: center;*/
+/*	background-color: #2E2E2E;*/
+	overflow: hidden;
+
+	border: 1px solid darkred;
+}
+
+.section-form>div{
+	width: 940px;
+/*	height: 100%;*/
+	display: flex;
+	justify-content: center;
+/*	align-items: center;*/
+	
+
+	border: 1px solid blue;
+	border-bottom: 6px solid red;
+
+
+	
+/*	margin: 0 auto;*/
+	padding: 58px 40px 68px 40px;
+	background-color: darkgreen;
+	border-bottom: 6px solid yellow;
+}
+
+.section-form>div>div{
+/*	width: 780px;
+	height: 432px;*/
+
+	border: 1px solid darkgreen;
+}
+
+.section-form h2,h3{
+
+	padding: 0;
+	margin: 0;
+	font-family: Lato-Black, Arial, sans-serif;
+}
+
+.section-form h2{
+	font-size: 28px;
+	
+	font-weight: 500;
+	color: white;	
+	letter-spacing: 0.02em;
+/*	max-height: 30px;
+	overflow: hidden;*/
+}
+
+.section-form h2+p{
+	font-size: 18px;
+	font-family: Lato-Light, Arial, sans-serif;
+	font-weight: 500;
+	color: lightgreen;	
+/*	letter-spacing: 0.02em;*/
+	margin-top: 18px;
+	margin-bottom: 16px;
+	line-height:  1.7em;
+/*	max-height: 22px;
+	overflow: hidden;*/
+}
+
+.section-form p+div{
+	margin-top: 45px;
+	
+/*	border: 1px solid red;*/
+}
+
+form{
+	width: 618px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin-right: 20px;
+	max-height: 385px;
+	overflow: hidden;
+}
+
+form input{
+	width: 603px;
+	height: 38px;
+	padding: 0;
+	padding-left: 15px;
+	margin-bottom: 16px;
+	font-size: 12px;
+	font-family: Lato-Regular, Verdana, sans-serif;
+	
+	background-color: orange;
+	border-radius: 5px;
+	border: none;
+}
+
+.form-button{
+	width: 90px;
+	height: 37px;
+	margin: 0;
+	padding: 0;
+	align-self: flex-end;
+	color: blue;
+	background-color: lightyellow;
+}
+
+.form-button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: black;
+}
+
+.form-message{
+	height: 150px;
+}
+
+.section-form p+div{
+	display: flex;
+}
+
+aside{
+	width: 300px;
+}
+
+aside>h3{
+	
+	margin: 0;
+	
+	color: white;
+	font-size: 18px;
+	
+/*	overflow: hidden;*/
+}
+
+aside>p{
+	height: 146px;
+	margin: 0;
+	margin-bottom: 16px;
+	color: darkred;
+	font-size: 12px;
+	font-family: Lato-Regular, Verdana, sans-serif;
+	line-height: 1.8em;
+	overflow: hidden;
+}
+
+aside>ul{
+	height: 150px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+aside li{
+	margin-bottom: 4px;	
+}
+
+aside a{
+	color: yellow;
+	text-decoration: none;	
+}
+
+aside a span{
+	font-size: 12px;
+	font-family: Lato-Regular, Verdana, sans-serif;
+	color: black;	
+}
+
+aside a span:hover{	
+	color: white;	
+}
+
+/*
+.empty-block{
+	padding: 0 0 60px 0;
+	margin: 0;
+}
+*/
+
+footer{
+	height: 63px;
+	display: flex;
+/*	padding-left: 160px;*/
+
+	justify-content: center;
+	align-items: center;
+
+/*	background-color: #1C1C1C;*/
+
+/*	border: 1px solid orange;*/
+
+/*	width: 100%;*/
+/*	position: absolute;
+	bottom: 0;*/
+}
+
+footer>div{
+	width: 940px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px;
+	background-color: black;
+
+	border: 1px solid blue;
+	
+}
+
+
+footer h4{
+	font-size: 12px;
+	font-family: MavenPro-Regular, Arial, sans-serif;
+	color: gray;
+	max-height: 20px;
+	overflow: hidden;
+}
+
+.social-icon-container{
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+/*	margin-top: 24px;*/
+}
+
+.social-icon-container>li{
+	height: 30px;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+}
+
+.social-icon-container a{
+	height: 100%;	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	text-decoration: none;	
+	color: gray;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+
+.social-icon-container a:hover{	
+	color: white;
+	background-color: gray;
+	border: 1px solid white;	
+}
