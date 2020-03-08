@@ -205,7 +205,7 @@ header h1 span{
 	font-size: 28px;
 	font-weight: 900;
 	font-family: Lato-Black, Verdana, sans-serif;
-	letter-spacing: 0.02em;
+	letter-spacing: 0.04em;
 	margin: 60px auto 20px auto;
 	color: #666D89;
 }
@@ -270,8 +270,8 @@ div:nth-child(6)>.content-icon{
 }
 
 .section-portfolio{
-	height: 870px;
-	max-height: 870px;
+	height: 864px;
+	max-height: 864px;
 	overflow: hidden;	
 	background-color: #2D303A;
 	border-bottom: 6px solid #323746;
@@ -286,7 +286,7 @@ div:nth-child(6)>.content-icon{
 .section-portfolio h2{
 	font-size: 28px;
 	font-family: Lato-Black, Verdana, sans-serif;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.05em;
 	height: 34px;
 	max-height: 34px;
 	overflow: hidden;
@@ -359,8 +359,8 @@ div:nth-child(6)>.content-icon{
 
 
 .section-about{
-	height: 734px;
-	max-height: 734px;
+	height: 728px;
+	max-height: 728px;
 	overflow: hidden;
 	background-color: #F2F2F2;
 	border-bottom: 6px solid #FFFFFF;
@@ -375,6 +375,7 @@ div:nth-child(6)>.content-icon{
 .section-about h2{
 	font-size: 28px;
 	font-family: Lato-Black, Verdana, sans-serif;
+	letter-spacing: 0.04em;
 	height: 34px;
 	max-height: 34px;
 	overflow: hidden;
@@ -518,8 +519,8 @@ div:nth-child(6)>.content-icon{
 }
 
 .section-form{
-	height: 654px;
-	max-height: 654px;
+	height: 648px;
+	max-height: 648px;
 	overflow: hidden;
 	padding: 0;
 	display: flex;
@@ -656,7 +657,7 @@ aside>ul{
 }
 
 aside li{
-	margin-bottom: 4px;	
+	margin-bottom: 8px;	
 }
 
 aside a{
