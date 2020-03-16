@@ -4,21 +4,22 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Singolo</title>
 		<link rel="stylesheet" href="style.css">
-		<link href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">				
+		<link href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">	
+		
 	</head>
 	<body>	
-		<header>
+		<header id="home">
 			<div>
 				<h1>					
 					<a href="https://sergmi.github.io/singolo/index.html">SINGOLO<span>*</span></a>								
 				</h1>
 				<nav class="styled-nav">
 					<ul class="header-nav-menu">			
-						<li><a href="#">HOME</a></li>					
-						<li><a href="#">SERVICES</a></li>
-						<li><a href="#">PORTFOLIO</a></li>
-						<li><a href="#">ABOUT</a></li>
-						<li><a href="#">CONTACT</a></li>					
+						<li><a href="#home" id="header_link_home" class="header-nav-menu-item checked">HOME</a></li>					
+						<li><a href="#services" id="header_link_services" class="header-nav-menu-item">SERVICES</a></li>
+						<li><a href="#portfolio" id="header_link_portfolio" class="header-nav-menu-item">PORTFOLIO</a></li>
+						<li><a href="#about" id="header_link_about" class="header-nav-menu-item">ABOUT</a></li>
+						<li><a href="#contact" id="header_link_contact" class="header-nav-menu-item">CONTACT</a></li>					
 					</ul>
 				</nav>
 			</div>			
@@ -28,13 +29,13 @@
 				<div class="main-slider">
 					<div><i class="fa fa-chevron-left"></i></div>
 					<div class="main-slider-content-container">
-						<div></div>
-						<div></div>
+						<div id="phone_vertical" class="main-slider-content-item-1"></div>
+						<div id="phone_horizontal" class="main-slider-content-item-2"></div>
 					</div>
 					<div><i class="fa fa-chevron-right"></i></div>
 				</div>				
 			</section>
-			<section class="section-services">				
+			<section id="services" class="section-services">				
 				<h2>Our Services</h2>
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 				<div class="main-content-container">	
@@ -82,33 +83,33 @@
 					</div>
 				</div>
 			</section>
-			<section class="section-portfolio">
+			<section id="portfolio" class="section-portfolio">
 				<div>
 					<h2>Portfolio</h2>
 					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>					
 					<ul class="portfolio-nav-menu">			
-							<li><a href="#">All</a></li>					
-							<li><a href="#">Web Design</a></li>
-							<li><a href="#">Graphic Design</a></li>
-							<li><a href="#">Artwork</a></li>										
+							<li><button id="portfolio_all" class="portfolio-nav-menu-item checked">All</button></li>					
+							<li><button id="portfolio_web_design" class="portfolio-nav-menu-item">Web Design</button></li>
+							<li><button id="portfolio_graphic_design" class="portfolio-nav-menu-item">Graphic Design</button></li>
+							<li><button id="portfolio_artwork" class="portfolio-nav-menu-item">Artwork</button></li>
 					</ul>
 					<ul class="content-container">			
-							<li></li>					
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>	
-							<li></li>
-							<li></li>
-							<li></li>
-							<li></li>
+							<li class="portfolio-image"></li>					
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>	
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
+							<li class="portfolio-image"></li>
 					</ul>
 				</div>				
 			</section>			
-			<section class="section-about">
+			<section id="about" class="section-about">
 				<div>				
 					<h2>About Us</h2>
 					<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -149,7 +150,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="section-form">
+			<section id="contact" class="section-form">
 				<div>
 					<div>
 						<h2>Get a Quote</h2>
@@ -203,5 +204,6 @@
 				</ul>
 			</div>
 		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>
